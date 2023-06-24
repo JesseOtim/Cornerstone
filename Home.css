@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url(./Images/emerson-vieira-cpkPJ-U9eUM-unsplash.jpg);
+  background-image: url(./Images/MORE\ MEAT.jfif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,6 +35,27 @@ body {
     margin-right: 0;
 } */
 
+/* Container holding the image and the text */
+.container {
+  text-align: center;
+  color: white;
+} 
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: tan;
+}
+
+img{
+  margin-left: 100px;
+}
 .navbar-brand {
   font-weight: bold;
   font-size: 25px;
@@ -47,7 +68,7 @@ body {
 }
 
 .navbar-nav li {
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .navbar-nav li a {
@@ -81,14 +102,17 @@ button {
 }
 
 .rolling-container {
-  width: 1120px; /* Set the desired width of the container */
-  height: 200px; /* Set the desired height of the container */
+  /* width: 1120px; Set the desired width of the container */
+  height: 100px; /* Set the desired height of the container */
   overflow: hidden;
 }
 
-/* .rolling-images {
+.rolling-images {
   display: flex;
-  animation: roll-images 10s infinite linear;
+  animation: roll-images 15s infinite linear;
+  height: 320px;
+  width: 700px;
+
 }
 
 @keyframes roll-images {
@@ -98,26 +122,9 @@ button {
   100% {
     transform: translateX(-100%);
   }
-} */
+}
 
-.rolling-images {
-    display: flex;
-    animation: roll-images 16s infinite linear;
-  }
   
-  @keyframes roll-images {
-    0%, 20% {
-      transform: translateX(0%);
-    }
-    30%, 50% {
-      transform: translateX(-100%);
-    }
-    60% {
-      transform: translateX(-100%);
-    }
-    80%, 100% {
-      transform: translateX(0%);
-    }
-  }
+
   
   
