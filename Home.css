@@ -97,8 +97,8 @@ button {
 }
 
 #container {
-  margin-top: 550px;
-  margin-bottom: 300px;
+  margin-top: 600px;
+  margin-bottom: 100px;
 }
 
 .rolling-container {
@@ -110,7 +110,7 @@ button {
 .rolling-images {
   display: flex;
   animation: roll-images 15s infinite linear;
-  height: 320px;
+  height: 310px;
   width: 700px;
 
 }
@@ -122,6 +122,10 @@ button {
   100% {
     transform: translateX(-100%);
   }
+}
+h1{
+  color: black;
+  font-weight: bold;
 }
 
   
