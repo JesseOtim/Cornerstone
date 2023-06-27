@@ -39,7 +39,7 @@ body {
 .container {
   text-align: center;
   color: white;
-} 
+}
 
 /* Centered text */
 .centered {
@@ -47,13 +47,13 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
-  font-family: cursive;
-  color: tan;
+  font-family: monospace;
+  color: white;
 }
 
-img{
+img {
   margin-left: 100px;
 }
 .navbar-brand {
@@ -66,7 +66,7 @@ img{
 .navbar-nav {
   margin-left: 25%;
 }
-
+/* 
 .navbar-nav li {
   margin-right: 30px;
 }
@@ -80,8 +80,42 @@ img{
 
 .navbar-nav li a:hover {
   color: brown;
+} */
+
+.navbar-nav li {
+  margin-right: 30px;
 }
 
+.navbar-nav li a {
+  position: relative; /* Add this line */
+  color: white;
+  font-weight: bold;
+  margin-top: 25px;
+  transition: 0.5s ease;
+}
+.navbar-nav nav-link1 {
+  color: orangered;
+}
+
+.navbar-nav li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* Adjust the value as needed */
+  width: 100%;
+  height: 2px;
+  background-color: orangered;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav li a:hover {
+  color: olivedrab;
+}
+
+.navbar-nav li a:hover::after {
+  transform: scaleX(1);
+}
 button {
   margin-top: 25px;
   transition: 0.5s ease;
@@ -94,6 +128,10 @@ button {
   border-radius: 25px;
   color: brown;
   font-weight: bold;
+}
+
+.container h1 {
+  color: brown;
 }
 
 #container {
@@ -112,7 +150,6 @@ button {
   animation: roll-images 15s infinite linear;
   height: 310px;
   width: 700px;
-
 }
 
 @keyframes roll-images {
@@ -123,12 +160,17 @@ button {
     transform: translateX(-100%);
   }
 }
-h1{
+h1 {
   color: black;
   font-weight: bold;
 }
 
-  
+#accordion {
+}
 
-  
-  
+/* .wavy-container {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 50% / 10px; /* Adjust the values as needed */
+/* transform: rotate(8deg);
+} */
