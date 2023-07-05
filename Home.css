@@ -8,7 +8,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 700px;
 }
 
 /* #list-container{
@@ -36,6 +36,7 @@ body {
 } */
 
 /* Container holding the image and the text */
+
 .container {
   text-align: center;
   color: white;
@@ -60,9 +61,10 @@ body {
   right: 20%;
 }
 
-img {
-  margin-left: 100px;
+#images {
+  margin-left: 350px;
 }
+
 .navbar-brand {
   font-weight: bold;
   font-size: 25px;
@@ -71,7 +73,7 @@ img {
 }
 
 .navbar-nav {
-  margin-left: 25%;
+  margin-left: 10%;
 }
 /* 
 .navbar-nav li {
@@ -96,14 +98,14 @@ img {
 .navbar-nav li a {
   position: relative; /* Add this line */
   color: white;
-  font-weight: bold;
+  font-weight: bolder;
   margin-top: 25px;
   transition: 0.5s ease;
 }
-.navbar-nav .nav-link1 {
-  color: orangered;
+#nav-link1 {
+  color: brown;
   text-decoration: none;
-
+  margin-top: 25px;
 }
 
 .navbar-nav li a::after {
@@ -119,7 +121,7 @@ img {
 }
 
 .navbar-nav li a:hover {
-  color: olivedrab;
+  color: white;
 }
 
 .navbar-nav li a:hover::after {
@@ -130,22 +132,27 @@ button {
   transition: 0.5s ease;
 }
 
+.btn.search-button:hover {
+  background-color: coral;
+  transition: 0.4s ease;
+}
+
 .search-button {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 190px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 160px;
   border-radius: 25px;
-  color: brown;
   font-weight: bold;
+  margin-left: 50px;
+}
+
+#container {
+  margin-top: 750px;
+  margin-bottom: 100px;
 }
 
 .container h1 {
   color: brown;
-}
-
-#container {
-  margin-top: 600px;
-  margin-bottom: 100px;
 }
 
 .rolling-container {
@@ -174,7 +181,9 @@ h1 {
   font-weight: bold;
 }
 
-#accordion {
+#phone{
+  margin-top:-155px ;
+  padding-left: 90px;
 }
 
 /* .wavy-container {
