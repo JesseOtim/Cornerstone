@@ -193,3 +193,14 @@ h1 {
   border-radius: 50% / 10px; /* Adjust the values as needed */
 /* transform: rotate(8deg);
 } */
+
+
+.bi-google-play{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+
+  font-size: 30px;
+  background-image: linear-gradient(to right, red 0%, red 20%, green 30%, green 100%);
+}
