@@ -133,8 +133,8 @@ button {
 }
 
 .btn.search-button:hover {
-  background-color: coral;
-  color: darkred;
+  background-color:darkred;
+  color:white;
   transition: 0.4s ease;
 }
 
@@ -216,6 +216,18 @@ span {
   background-color: red;
 } */
 
+.btn.button{
+ color: white;
+ cursor: pointer;
+ transition: 0.3s ease;
+}
+
+.btn.button:hover{
+  background: darkred;
+  transition: 0.3s ease;
+
+}
+
 .btn.only {
   background: darkgreen;
   color: white;
@@ -226,4 +238,7 @@ span {
 .btn.only:hover {
   background: white;
   color: black;
+  transition: 0.3s ease;
+
+
 }
