@@ -204,7 +204,7 @@ h1 {
 
 span {
   font-weight: bold;
-  font-size: 18px;
+
 }
 
 /* .btn.btn-btn{
@@ -220,6 +220,7 @@ span {
  color: white;
  cursor: pointer;
  transition: 0.3s ease;
+ border-radius: 25px;
 }
 
 .btn.button:hover{
@@ -233,6 +234,7 @@ span {
   color: white;
   cursor: pointer;
   transition: 0.3s ease;
+  border-radius: 25px;
 }
 
 .btn.only:hover {
