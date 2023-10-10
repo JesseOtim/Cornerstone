@@ -241,8 +241,15 @@ span {
   background: white;
   color: black;
   transition: 0.3s ease;
-
-
 }
 
+h6 a {
+  text-decoration: none;
+  color: orangered;
+}
+
+#accordion{
+background-color:grey;
+height: 400px;
+}
 
