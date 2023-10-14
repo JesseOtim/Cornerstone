@@ -133,8 +133,8 @@ button {
 }
 
 .btn.search-button:hover {
-  background-color:darkred;
-  color:white;
+  background-color: darkred;
+  color: white;
   transition: 0.4s ease;
 }
 
@@ -204,7 +204,6 @@ h1 {
 
 span {
   font-weight: bold;
-
 }
 
 /* .btn.btn-btn{
@@ -216,17 +215,16 @@ span {
   background-color: red;
 } */
 
-.btn.button{
- color: white;
- cursor: pointer;
- transition: 0.3s ease;
- border-radius: 25px;
+.btn.button {
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-radius: 25px;
 }
 
-.btn.button:hover{
+.btn.button:hover {
   background: darkred;
   transition: 0.3s ease;
-
 }
 
 .btn.only {
@@ -246,12 +244,44 @@ span {
 h6 a {
   text-decoration: none;
   color: orangered;
+  font-weight: bold;
 }
 
-#accordion{
-background-color:grey;
-height: 450px;
-margin-top: 20px;
-padding-top: 30px;
+#accordion {
+  height: 450px;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin: 100px 0 0 0;
+  height: 100%;
+}
+
+.footer-content p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+span{
+color: orangered;
+}
+span1{
+  color: darkgreen;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 24px;
 }
 
